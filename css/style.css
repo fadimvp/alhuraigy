@@ -757,7 +757,8 @@ visibility: hidden;
 
 }
 .from-content{
-    width: 100%;
+    width: 80%;
+    margin: auto;
 }
 .form-icon{
     width: 100%;
@@ -783,6 +784,7 @@ overflow: hidden;
 }
 .form-form{
     margin-right: 100px;
+    width: 90%;
 }
 .form-name-email{
    width: 100%;
