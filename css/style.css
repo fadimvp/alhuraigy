@@ -127,16 +127,32 @@ body{
 
     .container #icon1{
         margin-top: 20px;
-        display: block;
+        display: none;
     }
-@media (max-width:909px){
+
+
+@media screen and  (max-width:909px){
     .about-item.mg {
-        margin: 0 2% !important;
+        margin: 0 0% !important;
     }
+    .offer-item {
+        width: 73% !important;
+        font-size: 14px !important;
+        padding: 30px 5px 27px 30px !important;
+        overflow-wrap: break-word;
+
+    }
+    
+    
+    .offer-item.mg{
+    margin: 0 0 !important;
+    }
+    
     .about-item{
         
             float: left;
-            width: 32% !important;
+            width: 67% !important;
+            margin: 8px;
             text-align: center !important; 
             padding: 5px 6px !important;
             border: 1px solid #e8e8e8;
@@ -148,15 +164,34 @@ body{
         display: block;
     }
     .nav {
+        display: none;
+        opacity: 0.4;
         position: fixed;
         height: 100vh;
+        width: 80% !important;
+        float: left;
+        list-style: none;
+        top: 40px;
+        right: 0;
+        background-color:gray !important;
+        z-index: 1;
+        text-align: center !important;
+        margin: auto !important;
+
+        
     }
-    .nav ul {
+    .header .nav > li {
+    
         display: block;
+        width: 100%;
+        text-align: center;
+    }
+    .header .nav >li  >a{
+        color:white !important;
     }
     .home .title {
         margin-top: 25px;
-        color: aliceblue;
+        color: rgb(160, 165, 170);
         font-size: 2rem !important;
         text-transform: uppercase;
     }
@@ -173,9 +208,67 @@ body{
 .pd-y{
     padding: 65px !important;
 }
-
+.team-item.mg{
+    margin: 15px 10 !important ;
+}
+.team-item{
+    width: 55% !important;
+    margin: 15px 10px;
+}
+.section-headr .section-title{
+  margin-right: 70px !important;
 }
 
+}
+@media screen and (max-width:400px){
+    .pd-y {
+        padding: 35px !important;
+        margin-left: 15% !important;
+        width: 100% !important;
+    }
+    .about-item.mg{
+        max-width: 0px 0%;
+    }
+    .about-item-title{
+        font-size: 17px;
+    }
+    .about-item {
+        margin: 18px 0%;
+        float: left;
+        width: 69% !important;
+        text-align: center !important;
+        padding: 14px 6px !important;
+        border: 1px solid #e8e8e8;
+        font-size: 12px !important;
+        overflow-wrap: break-word;
+
+    }
+    .portfolio-item {
+        width: 61% !important;
+    }
+    .section-headr .line {
+        margin: 0 0 38px 192px !important;
+    }
+    .section-headr .section-title{
+        margin-right: 100px;
+    }
+    .offer-item {
+        width: 73% !important;
+        font-size:12px !important;
+        padding: 30px 5px 27px 30px !important;
+        overflow-wrap: break-word;
+    }
+    
+    
+    .team-item{
+        width: 60% !important;
+        margin:  15px 0 !important;
+
+    }
+    .team-item.mg{
+        margin:  15px 0 !important;
+    }
+}
 /* home section*/
 
 .home{
